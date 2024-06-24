@@ -12,9 +12,9 @@ aws-sdk-sqs = "0.22.0"
 clap = { version = "3.1.15", features = ["derive", "env"] }
 futures = "0.3.25"
 serde = "1.0"
-spin-core = { git = "https://github.com/rajatjindal/spin", branch = "client-certs" }
-spin-telemetry = { git = "https://github.com/rajatjindal/spin", branch = "client-certs" }
-spin-trigger = { git = "https://github.com/rajatjindal/spin", branch = "client-certs" }
+spin-core = { git = "https://github.com/rajatjindal/spin", branch = "client-certs-old" }
+spin-telemetry = { git = "https://github.com/rajatjindal/spin", branch = "client-certs-old" }
+spin-trigger = { git = "https://github.com/rajatjindal/spin", branch = "client-certs-old" }
 tokio = { version = "1.37", features = ["full"] }
 tokio-scoped = "0.2.0"
 tracing = { version = "0.1", features = ["log"] }
